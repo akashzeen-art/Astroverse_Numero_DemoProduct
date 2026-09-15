@@ -54,8 +54,8 @@ export const generatePDFReport = async (
   pdf.setProperties({
     title: `${readingData.type.charAt(0).toUpperCase() + readingData.type.slice(1)} Reading Report`,
     subject: `Personal ${readingData.type} analysis`,
-    author: "PalmAstro",
-    creator: "PalmAstro AI Platform",
+    author: "Astroverse",
+    creator: "Astroverse AI Platform",
   });
 
   // Header with logo and branding
@@ -65,7 +65,7 @@ export const generatePDFReport = async (
   pdf.setTextColor(255, 255, 255);
   pdf.setFontSize(24);
   pdf.setFont("helvetica", "bold");
-  pdf.text("PalmAstro", 15, 17);
+  pdf.text("Astroverse", 15, 17);
 
   pdf.setFontSize(12);
   pdf.setFont("helvetica", "normal");
@@ -158,7 +158,7 @@ export const generatePDFReport = async (
     { align: "center" },
   );
   pdf.text(
-    "© 2024 PalmAstro. All rights reserved.",
+    "© 2024 Astroverse. All rights reserved.",
     pageWidth / 2,
     footerY + 5,
     { align: "center" },
@@ -683,7 +683,7 @@ export const shareReading = async (
   options?: Partial<ShareOptions>,
 ): Promise<void> => {
   const defaultTitle = `My ${readingData.type.charAt(0).toUpperCase() + readingData.type.slice(1)} Reading`;
-  const defaultText = `Check out my personalized ${readingData.type} reading from PalmAstro! ${readingData.overallScore ? `Overall score: ${readingData.overallScore}%` : ""}`;
+  const defaultText = `Check out my personalized ${readingData.type} reading from Astroverse! ${readingData.overallScore ? `Overall score: ${readingData.overallScore}%` : ""}`;
   const defaultUrl = window.location.origin;
 
   const shareData: ShareOptions = {
@@ -806,7 +806,7 @@ export const shareWithReport = async (
 
     await shareReading(readingData, {
       files: [file],
-      text: `Check out my personalized ${readingData.type} reading report from PalmAstro!`,
+      text: `Check out my personalized ${readingData.type} reading report from Astroverse!`,
     });
   } catch (error) {
     console.error("Error sharing with report:", error);
@@ -841,7 +841,7 @@ export const copyToClipboard = async (
  * Generate text summary of reading
  */
 const generateTextSummary = (readingData: ReadingData): string => {
-  let summary = `My ${readingData.type.charAt(0).toUpperCase() + readingData.type.slice(1)} Reading from PalmAstro\n\n`;
+  let summary = `My ${readingData.type.charAt(0).toUpperCase() + readingData.type.slice(1)} Reading from Astroverse\n\n`;
 
   summary += `Name: ${readingData.userInfo.name}\n`;
   summary += `Date: ${readingData.userInfo.date}\n`;
@@ -851,7 +851,7 @@ const generateTextSummary = (readingData: ReadingData): string => {
   }
 
   summary += `\nGenerated on: ${new Date(readingData.timestamp).toLocaleString()}\n`;
-  summary += `\nDiscover your destiny at PalmAstro.com`;
+  summary += `\nDiscover your destiny at Astroverse.com`;
 
   return summary;
 };

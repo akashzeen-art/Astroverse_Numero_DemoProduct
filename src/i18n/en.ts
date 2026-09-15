@@ -322,7 +322,7 @@ const en: Translations = {
   },
 
   auth: {
-    title: "PalmAstro",
+    title: "Astroverse",
     subtitle: "Join thousands of users discovering their cosmic destiny",
     signIn: "Sign In",
     signUp: "Sign Up",
@@ -360,7 +360,7 @@ const en: Translations = {
     privacyPolicy: "Privacy Policy",
     termsOfService: "Terms of Service",
     contactUs: "Contact Us",
-    copyright: "© 2024 PalmAstro. All rights reserved.",
+    copyright: "© 2024 Astroverse. All rights reserved.",
   },
 
   common: {

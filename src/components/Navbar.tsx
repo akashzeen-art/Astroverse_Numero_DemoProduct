@@ -86,7 +86,7 @@ const Navbar = () => {
             {/* Logo */}
             <Link to="/">
               <div ref={logoRef} className="flex items-center gap-1.5 relative">
-                <img src="/logo.png" alt="The Bharat Astro Logo" className="h-12 w-auto sm:h-14 md:h-16 object-contain" />
+                <img src="/logo.png" alt="Astroverse Logo" className="h-12 w-auto sm:h-14 md:h-16 object-contain" />
                 <Sparkles className="premium-sparkle absolute -top-0.5 -right-0.5 h-2 w-2 sm:h-2.5 sm:w-2.5 text-amber-400" />
               </div>
             </Link>
@@ -198,7 +198,7 @@ const Navbar = () => {
 
             {/* Footer */}
             <div className="px-5 pb-4 text-[10px] text-gray-600 text-center">
-              © 2026 The Bharat Astro
+              © 2026 Astroverse
             </div>
           </div>
         </div>

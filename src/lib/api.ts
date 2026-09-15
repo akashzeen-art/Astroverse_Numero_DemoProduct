@@ -1,4 +1,4 @@
-// PalmAstro API Service - Simulated Backend
+// Astroverse API Service - Simulated Backend
 // In a real implementation, these would connect to actual backend endpoints
 
 export interface User {
@@ -125,7 +125,7 @@ const mockUser: User = {
 };
 
 // API Service Class
-export class PalmAstroAPI {
+export class AstroverseAPI {
   // Authentication
   static async login(
     email: string,
@@ -493,4 +493,4 @@ export class PalmAstroAPI {
 }
 
 // Export default instance
-export default PalmAstroAPI;
+export default AstroverseAPI;

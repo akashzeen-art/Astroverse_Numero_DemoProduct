@@ -7,7 +7,7 @@ export const API_CONFIG = {
 } as const;
 
 export const APP_CONFIG = {
-  NAME: "The Bharat Astro",
+  NAME: "Astroverse",
   VERSION: "1.0.0",
   ENVIRONMENT: import.meta.env.MODE,
   IS_DEVELOPMENT: import.meta.env.DEV,

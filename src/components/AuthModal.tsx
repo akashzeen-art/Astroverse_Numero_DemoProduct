@@ -156,7 +156,7 @@ const AuthModal = ({
     setErrorMessage(null);
     // Simulate Google OAuth
     await new Promise((resolve) => setTimeout(resolve, 1500));
-    const success = await login("demo@palmastro.com", "demo_password");
+    const success = await login("demo@astroverse.com", "demo_password");
     if (success) {
       onClose();
     }
@@ -170,7 +170,7 @@ const AuthModal = ({
           <div className="flex items-center justify-center gap-2 mb-1 sm:mb-2">
             <Sparkles className="h-5 w-5 sm:h-6 sm:w-6 text-cosmic animate-glow" />
             <DialogTitle className="text-xl sm:text-2xl cosmic-text font-bold">
-              PalmAstro
+              Astroverse
             </DialogTitle>
           </div>
           <DialogDescription className="text-xs sm:text-sm text-muted-foreground">

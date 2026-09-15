@@ -39,7 +39,7 @@ export const my_dashboard = {
 };
 
 export const my_auth = {
-  title: "PalmAstro",
+  title: "Astroverse",
   subtitle: "ကြယ်ဆိုင်ရာကံကြမ္မာကို ရှာဖွေနေသော အသုံးပြုသူထောင်ပေါင်းများစွာနှင့် ပူးပေါင်းပါ",
   signIn: "ဝင်ရောက်ရန်",
   signUp: "စာရင်းသွင်းရန်",
@@ -76,7 +76,7 @@ export const my_footer = {
   privacyPolicy: "ကိုယ်ရေးကိုယ်တာမူဝါဒ",
   termsOfService: "ဝန်ဆောင်မှုသတ်မှတ်ချက်များ",
   contactUs: "ဆက်သွယ်ရန်",
-  copyright: "© ၂၀၂၄ PalmAstro။ မူပိုင်ခွင့်အားလုံး ကြိုတင်သိမ်းဆည်းထားသည်။",
+  copyright: "© ၂၀၂၄ Astroverse။ မူပိုင်ခွင့်အားလုံး ကြိုတင်သိမ်းဆည်းထားသည်။",
 };
 
 export const my_common = {

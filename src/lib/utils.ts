@@ -5,7 +5,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-// Additional utility functions for PalmAstro
+// Additional utility functions for Astroverse
 export function formatDate(date: string | Date): string {
   const d = new Date(date);
   return new Intl.DateTimeFormat("en-US", {

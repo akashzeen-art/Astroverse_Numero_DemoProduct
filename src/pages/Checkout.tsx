@@ -76,7 +76,7 @@ const Checkout = () => {
               <CheckCircle className="w-10 h-10 text-green-400" />
             </div>
             <h2 className="text-2xl font-bold text-white">Payment Successful!</h2>
-            <p className="text-gray-400">Welcome to The Bharat Astro. Redirecting...</p>
+            <p className="text-gray-400">Welcome to Astroverse. Redirecting...</p>
             <div className="flex justify-center">
               <div className="w-6 h-6 border-2 border-purple-400/30 border-t-purple-400 rounded-full animate-spin" />
             </div>

@@ -193,7 +193,7 @@ export interface DashboardData {
 // Mock API Data - Always available as fallback
 const MOCK_USER: User = {
   id: "user_123",
-  email: "demo@palmastro.com",
+  email: "demo@astroverse.com",
   username: "demo_user",
   first_name: "Demo",
   last_name: "User",
@@ -261,7 +261,7 @@ const MOCK_DASHBOARD_DATA: DashboardData = {
   },
 };
 
-class PalmAstroAPIService {
+class AstroverseAPIService {
   private baseURL: string;
   private timeout: number;
   private retryAttempts: number;
@@ -1499,5 +1499,5 @@ class PalmAstroAPIService {
 }
 
 // Export singleton instance
-export const apiService = new PalmAstroAPIService();
+export const apiService = new AstroverseAPIService();
 export default apiService;

@@ -80,7 +80,7 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        // PalmAstro brand colors
+        // Astroverse brand colors
         cosmic: {
           DEFAULT: "hsl(var(--cosmic))",
           foreground: "hsl(var(--cosmic-foreground))",

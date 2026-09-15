@@ -323,7 +323,7 @@ const lo: Translations = {
   },
 
   auth: {
-    title: "PalmAstro",
+    title: "Astroverse",
     subtitle: "ເຂົ້າຮ່ວມກັບຜູ້ໃຊ້ຫຼາຍພັນຄົນທີ່ກຳລັງຄົ້ນພົບໂຊກຊະຕາຈາກດາວ",
     signIn: "ເຂົ້າສູ່ລະບົບ",
     signUp: "ສະໝັກສະມາຊິກ",
@@ -361,7 +361,7 @@ const lo: Translations = {
     privacyPolicy: "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
     termsOfService: "ເງື່ອນໄຂການໃຊ້ບໍລິການ",
     contactUs: "ຕິດຕໍ່ພວກເຮົາ",
-    copyright: "© 2024 PalmAstro. ສະຫງວນລິຂະສິດທັງໝົດ.",
+    copyright: "© 2024 Astroverse. ສະຫງວນລິຂະສິດທັງໝົດ.",
   },
 
   common: {
